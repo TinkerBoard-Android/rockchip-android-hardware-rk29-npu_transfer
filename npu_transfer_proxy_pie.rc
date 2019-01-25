@@ -1,0 +1,2 @@
+service npu_transfer_proxy vendor/bin/npu_transfer_proxy
+    class core
