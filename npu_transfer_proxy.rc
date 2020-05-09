@@ -1,3 +1,4 @@
 service npu_transfer_proxy vendor/bin/npu_transfer_proxy
     class core
+    group system wakelock
     seclabel u:r:npu_transfer_proxy:s0
