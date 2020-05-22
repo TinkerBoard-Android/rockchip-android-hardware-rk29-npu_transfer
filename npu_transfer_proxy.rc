@@ -2,5 +2,5 @@ service npu_transfer_proxy vendor/bin/npu_transfer_proxy
     class core
     group system wakelock
     socket transfer_proxy stream 660 system system
-    capabilities SETPCAP
+    capabilities SETPCAP BLOCK_SUSPEND
     seclabel u:r:npu_transfer_proxy:s0
